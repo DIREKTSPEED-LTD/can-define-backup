@@ -1,5 +1,7 @@
 # can-define-backup
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/canjs/can-define-backup.svg)](https://greenkeeper.io/)
+
 
 [![Build Status](https://travis-ci.org/canjs/can-define-backup.png?branch=master)](https://travis-ci.org/canjs/can-define-backup)
 
