@@ -17,11 +17,11 @@ will re-add properties that have been removed.
 
 @body
 
-```js
-var DefineMap = require('can-define/map/map');
+```javascript
+import DefineMap from 'can-define/map/map';
 require('can-define-backup')
 
-var recipe = new DefineMap("Recipe", {
+const recipe = new DefineMap("Recipe", {
 title: 'Pancake Mix',
 yields: '3 batches',
 ingredients: [{

@@ -50,7 +50,7 @@ recipe.title;     // 'Pancake Mix'
 
 With StealJS, you can import this module directly in a template that is autorendered:
 
-```js
+```javascript
 import plugin from 'can-define-backup';
 ```
 
@@ -59,8 +59,8 @@ import plugin from 'can-define-backup';
 Use `require` to load `can-define-backup` and everything else
 needed to create a template that uses `can-define-backup`:
 
-```js
-var plugin = require("can-define-backup");
+```javascript
+import plugin from "can-define-backup";
 ```
 
 ### AMD use

@@ -24,11 +24,11 @@ Here is an example showing how to use [can-define-backup/can-define.prototype.ba
 
 to check if the Map has changed:
 
-```js
-var DefineMap = require("can-define/map/map");
+```javascript
+import DefineMap from "can-define/map/map";
 require('can-define-backup');
 
-var recipe = new DefineMap({
+const recipe = new DefineMap({
   title: 'Pancake Mix',
   yields: '3 batches',
   ingredients: [{
